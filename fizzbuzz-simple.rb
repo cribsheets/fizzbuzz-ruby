@@ -4,6 +4,12 @@
 # thing is to use a range, such as (0..100).
 (0..100).each do |number|
 
+  # remember the rules:
+  # - if the number is divisible by 3, print 'fizz'
+  # - if the number is divisible by 5, print 'buzz'
+  # - if the number is divisible by both 3 AND 5, print 'fizzbuzz'
+  # - otherwise, just print the number
+
   # when determining whether a number is a 'fizzbuzz', we
   # could use:
   # if (0 == number % 5) && (0 == number % 3) then
